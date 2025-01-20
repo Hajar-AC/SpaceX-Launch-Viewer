@@ -1,15 +1,22 @@
-# Initialiser un dépôt Git dans ton projet
-git init
+1. Cloner le dépôt Git
+   git clone git@github.com:Hajar-AC/SpaceX-Launch-Viewer.git
+   
+2. Accéder au dossier du projet
+   cd SpaceX-Launch-Viewer
 
-# Ajouter tous les fichiers au dépôt
-git add .
+3. Installer les dépendances
+   npm install
 
-# Faire un premier commit
-git commit -m "Initial commit: SpaceX Launch Viewer"
+4. Lancer le projet en mode développement
+   npm run dev
 
-# Ajouter le dépôt distant
-git remote add origin https://github.com/..........
+5. Accéder à l'application
+   http://localhost:5173/
 
-# Pousser le code dans le dépôt public
-git branch -M main
-git push -u origin main
+#Déploiement
+
+npm run build
+
+
+
+   
